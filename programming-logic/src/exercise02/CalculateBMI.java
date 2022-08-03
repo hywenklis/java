@@ -2,7 +2,7 @@ package exercise02;
 
 import java.util.Scanner;
 
-public class CalculateIMC {
+public class CalculateBMI {
 
     public static void main(String[] args) {
 
@@ -20,5 +20,6 @@ public class CalculateIMC {
 
         System.out.printf("Your BMI is: %f", BMI);
 
+        scanner.close();
     }
 }
