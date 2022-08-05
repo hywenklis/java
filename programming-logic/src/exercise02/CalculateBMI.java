@@ -11,7 +11,7 @@ public class CalculateBMI {
         System.out.println("CALCULATION OF BODY MASS INDEX");
 
         System.out.println("Enter your weight: ");
-        Double weight = scanner.nextDouble();
+        double weight = scanner.nextDouble();
 
         System.out.println("Enter your height: ");
         Double height = scanner.nextDouble();

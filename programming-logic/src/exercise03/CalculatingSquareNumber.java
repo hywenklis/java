@@ -11,7 +11,7 @@ public class CalculatingSquareNumber {
         System.out.print("Enter a number: ");
         Integer number = scanner.nextInt();
 
-        Integer square = number * number;
+        int square = number * number;
 
         System.out.println("The square of " + number + " is " + square + ".");
 
