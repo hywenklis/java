@@ -6,6 +6,9 @@ import java.util.Scanner;
 
 public class CalculatingValueTotal {
 
+    static final Integer PERCENTUAL_DISCOUNT = 10;
+    static final Integer QUANTITY_PRODUCT_FOR_DISCOUNT = 10;
+
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
@@ -22,8 +25,8 @@ public class CalculatingValueTotal {
 
         BigDecimal discountSubtotal;
 
-        if (quantityProduct >= 10) {
-            discountSubtotal = subTotal.divide(BigDecimal.valueOf(10), 2, RoundingMode.UP);
+        if (quantityProduct >= QUANTITY_PRODUCT_FOR_DISCOUNT) {
+            discountSubtotal = subTotal.divide(BigDecimal.valueOf(PERCENTUAL_DISCOUNT), 2, RoundingMode.UP);
             System.out.println("A 10% discount has been applied to your purchase its total value is: $" + discountSubtotal);
         }
     }
