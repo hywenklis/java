@@ -29,5 +29,7 @@ public class CalculatingValueTotal {
             discountSubtotal = subTotal.divide(BigDecimal.valueOf(PERCENTUAL_DISCOUNT), 2, RoundingMode.UP);
             System.out.println("A 10% discount has been applied to your purchase its total value is: $" + discountSubtotal);
         }
+
+        scanner.close();
     }
 }
