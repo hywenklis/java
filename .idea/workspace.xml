@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="be1ed087-5e12-40e9-8417-44200a5bd538" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/programming-logic/src/exercise05/CalculatingValueTotal.java" beforeDir="false" afterPath="$PROJECT_DIR$/programming-logic/src/exercise05/CalculatingValueTotal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,13 +42,13 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.CalculatorArithmetic">
-    <configuration name="CalculateBMI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exercise02.CalculateBMI" />
+  <component name="RunManager" selected="Application.CalculatingDiscountFreight">
+    <configuration name="CalculatingDiscountFreight" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exercise07.CalculatingDiscountFreight" />
       <module name="programming-logic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="exercise02.*" />
+          <option name="PATTERN" value="exercise07.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,11 +110,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CalculatingDiscountFreight" />
         <item itemvalue="Application.CalculatorArithmetic" />
         <item itemvalue="Application.CalculatingValueTotal" />
         <item itemvalue="Application.CalculatingNotesStudent" />
         <item itemvalue="Application.CalculatingSquareNumber" />
-        <item itemvalue="Application.CalculateBMI" />
       </list>
     </recent_temporary>
   </component>
