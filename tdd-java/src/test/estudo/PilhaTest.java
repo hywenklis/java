@@ -1,8 +1,8 @@
-package test;
+package test.estudo;
 
-import main.Pilha;
-import main.PilhaCheiaException;
-import main.PilhaVaziaException;
+import main.estudo.Pilha;
+import main.estudo.PilhaCheiaException;
+import main.estudo.PilhaVaziaException;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

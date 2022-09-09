@@ -1,4 +1,4 @@
-package main;
+package main.estudo;
 
 import java.util.ArrayList;
 import java.util.List;

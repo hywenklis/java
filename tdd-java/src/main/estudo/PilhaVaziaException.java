@@ -1,4 +1,4 @@
-package main;
+package main.estudo;
 
 public class PilhaVaziaException extends RuntimeException {
     public PilhaVaziaException(String message) {
